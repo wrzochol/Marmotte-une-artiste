@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmotte Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="mascotte.png" alt="Mascotte marmotte" class="mascotte">
+            <h1>Bienvenue sur Marmotte Music</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#recherche">Recherche d'artistes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Découvre les meilleurs artistes</h2>
+            <p>Cherche, écoute, et partage tes avis sur les artistes qui font vibrer ton quotidien. Utilise la marmotte pour t'aider dans ta quête musicale !</p>
+        </section>
+
+        <section id="recherche">
+            <h2>Recherche ton artiste préféré</h2>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Chercher un artiste ou un genre...">
+                <button type="submit">Creuser !</button>
+            </form>
+            <div id="resultats"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marmotte Music. Trouve ton artiste avec style.</p>
+    </footer>
+</body>
+</html>
